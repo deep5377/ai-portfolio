@@ -1,3 +1,6 @@
+import NeuralBackground from './NeuralBackground'
+
+
 function Hero() {
   return (
     <section style={{
@@ -10,6 +13,7 @@ function Hero() {
       background: 'linear-gradient(180deg, #f8f8ff 0%, #fafafa 100%)',
       overflow: 'hidden',
     }}>
+      <NeuralBackground />
       <div style={{
         position: 'relative',
         zIndex: 1,

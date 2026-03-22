@@ -3,6 +3,34 @@ import { useState } from 'react'
 function Projects() {
   var allProjects = [
     {
+      title: 'Portfolio Risk Forecasting Platform',
+      desc: 'Distributed event-driven platform leveraging PySpark on AWS EMR with Kafka streaming. Processes 3TB+ daily market data for scenario-based risk analysis across 1,000+ multi-asset securities.',
+      tags: ['PySpark', 'AWS EMR', 'Kafka', 'LSTM', 'XGBoost'],
+      category: 'Data Engineering',
+      color: '#f59e0b',
+    },
+    {
+      title: 'Monte Carlo Simulation Engine',
+      desc: 'Distributed simulation framework using Spark to parallelize 10K+ stochastic paths per asset with correlated risk factor modeling. Reduced portfolio drawdown exposure by 18%.',
+      tags: ['Apache Spark', 'Monte Carlo', 'Risk Modeling', 'Python'],
+      category: 'Machine Learning',
+      color: '#6366f1',
+    },
+    {
+      title: 'Netflix Dashboard & Recommendations',
+      desc: 'Tableau dashboard with ML-powered recommendation system for Netflix content analysis. Built during Northeastern University coursework.',
+      tags: ['Tableau', 'Machine Learning', 'OpenCV', 'Python'],
+      category: 'Data Science',
+      color: '#e11d48',
+    },
+    {
+      title: 'Athlete Body Detection System',
+      desc: 'Computer vision system using OpenCV for real-time athlete body detection and pose analysis.',
+      tags: ['OpenCV', 'Computer Vision', 'Python', 'Deep Learning'],
+      category: 'Computer Vision',
+      color: '#10b981',
+    },
+    {
       title: 'LLM-Powered Research Assistant',
       desc: 'Built a RAG-based application using LangChain, FAISS, and Pinecone that enables analysts to query internal documents using natural language. Reduced research time by 40% at JPMorgan Chase.',
       tags: ['LangChain', 'FAISS', 'Pinecone', 'RAG', 'Hugging Face'],

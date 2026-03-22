@@ -1,6 +1,5 @@
 import NeuralBackground from './NeuralBackground'
 
-
 function Hero() {
   return (
     <section style={{
@@ -39,7 +38,7 @@ function Hero() {
             background: '#22c55e',
             display: 'inline-block',
           }} />
-          Open to opportunities
+          AI/ML Engineer at BlackRock
         </div>
 
         <h1 style={{
@@ -60,7 +59,7 @@ function Hero() {
           maxWidth: 560,
           margin: '0 auto 36px',
         }}>
-          Building intelligent systems at the intersection of machine learning, embedded computing, and modern web technologies.
+          Building Scalable AI Systems for Real-Time Insights and Impact. 4+ years engineering production ML systems, time-series forecasting, and distributed data pipelines.
         </p>
 
         <div style={{
@@ -79,10 +78,11 @@ function Hero() {
             fontWeight: 600,
             textDecoration: 'none',
             boxShadow: '0 4px 20px rgba(99, 102, 241, 0.3)',
+            display: 'inline-block',
           }}>
             View My Work
           </a>
-           <a href="mailto:deepdp840@gmail.com" style={{
+          <a href="mailto:deepdp840@gmail.com" style={{
             padding: '14px 32px',
             borderRadius: 14,
             border: '1.5px solid #ddd',
@@ -91,6 +91,7 @@ function Hero() {
             fontSize: 15,
             fontWeight: 600,
             textDecoration: 'none',
+            display: 'inline-block',
           }}>
             Get in Touch
           </a>

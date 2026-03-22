@@ -38,8 +38,7 @@ function About() {
             color: '#444',
             lineHeight: 1.8,
           }}>
-            I am an AI/ML Engineer with 4+ years of experience designing, building, and deploying machine learning and Generative AI solutions across financial services, risk analytics, and enterprise data platforms. Currently at JPMorgan Chase, I build end-to-end ML pipelines, LLM-powered applications with RAG architectures, and scalable NLP systems that reduce analyst research time by 40%. I hold a Masters in Data Analytics Engineering from Northeastern University. I am passionate about the full stack of AI — from training models to deploying them in production with Docker, Kubernetes, and cloud infrastructure.
-          </p>
+           I am an AI/ML Engineer at BlackRock with 4+ years of experience building scalable machine learning systems and real-time data pipelines for financial services. I specialize in time-series forecasting, distributed computing with PySpark and AWS, and deploying low-latency inference services. Currently I architect portfolio risk forecasting platforms processing 3TB+ daily data across 1,000+ multi-asset securities. I hold a Masters in Data Analytics Engineering from Northeastern University and a BTech in IT from Apollo Institute of Engineering. Passionate about building AI systems that deliver real-time insights and measurable impact.          </p>
         </div>
 
         <div style={{
@@ -49,8 +48,8 @@ function About() {
         }}>
           {[
             { num: '4+', label: 'Years Experience', color: '#6366f1' },
-            { num: '35%', label: 'Inference Latency Reduced', color: '#06b6d4' },
-            { num: '40%', label: 'Research Time Saved', color: '#f59e0b' },
+            { num: '30%', label: 'VaR Prediction Improved', color: '#06b6d4' },
+            { num: '40%', label: 'Pipeline Latency Reduced', color: '#f59e0b' },
             { num: 'MS', label: 'Northeastern University', color: '#10b981' },
           ].map(function(stat, index) {
             return (

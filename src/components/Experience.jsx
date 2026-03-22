@@ -1,17 +1,17 @@
 function Experience() {
   var jobs = [
     {
-      company: 'JPMorgan Chase & Co.',
+      company: 'BlackRock',
       role: 'AI/ML Engineer',
       period: 'Nov 2024 - Present',
-      location: 'Massachusetts',
+      location: 'United States',
       color: '#6366f1',
       highlights: [
-        'Designed end-to-end ML pipelines for risk and customer analytics using Python, Scikit-learn, XGBoost, and PyTorch — improved model inference latency by 35%',
-        'Built LLM-powered applications using Hugging Face, LangChain, and RAG with FAISS and Pinecone — reduced analyst research time by 40%',
-        'Implemented production-grade MLOps with Docker, Kubernetes, MLflow, and CI/CD pipelines — cut model release cycles from weeks to days',
-        'Developed NLP solutions for document intelligence using BERT-based models for automated extraction of financial documents',
-        'Exposed ML and LLM services via FastAPI and REST APIs on AWS (EC2, S3, Lambda, SageMaker)',
+        'Architected a distributed, event-driven portfolio risk forecasting platform leveraging PySpark on AWS EMR with Kafka-based streaming, processing 3TB+ daily data across 1,000+ multi-asset securities',
+        'Designed hybrid time-series forecasting pipelines combining LSTM and XGBoost with feature drift detection and rolling window retraining — achieving 30% improvement in VaR and volatility prediction accuracy',
+        'Engineered a distributed Monte Carlo simulation framework using Spark to parallelize 10K+ stochastic paths per asset — reducing portfolio drawdown exposure by 18%',
+        'Optimized large-scale Spark workloads by tuning shuffle partitioning, broadcast joins, and caching layers — achieving 40% reduction in end-to-end pipeline latency',
+        'Developed high-throughput inference services using FastAPI with async request handling — exposing real-time portfolio risk metrics with sub-2 second latency',
       ],
     },
     {

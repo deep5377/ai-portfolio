@@ -14,7 +14,6 @@ function Navbar() {
       backdropFilter: 'blur(20px)',
       borderBottom: '1px solid rgba(0, 0, 0, 0.06)',
     }}>
-      {/* Logo */}
       <div style={{
         fontWeight: 700,
         fontSize: 20,
@@ -24,12 +23,12 @@ function Navbar() {
         Deep<span style={{ color: '#6366f1' }}>.</span>
       </div>
 
-      {/* Navigation Links */}
       <div style={{ display: 'flex', gap: 32, alignItems: 'center' }}>
         <a href="#about" style={linkStyle}>About</a>
         <a href="#skills" style={linkStyle}>Skills</a>
+        <a href="#experience" style={linkStyle}>Experience</a>
         <a href="#projects" style={linkStyle}>Projects</a>
-        <a href="https://github.com/yourusername" target="_blank" style={linkStyle}>GitHub</a>
+        <a href="https://github.com/deep5377" target="_blank" rel="noreferrer" style={linkStyle}>GitHub</a>
         <a href="#" style={{
           padding: '10px 22px',
           borderRadius: 14,
@@ -39,6 +38,7 @@ function Navbar() {
           fontSize: 13,
           fontWeight: 600,
           textDecoration: 'none',
+          display: 'inline-block',
         }}>
           Resume
         </a>
@@ -47,8 +47,7 @@ function Navbar() {
   )
 }
 
-// Reusable style for nav links
-const linkStyle = {
+var linkStyle = {
   fontSize: 14,
   color: '#666',
   textDecoration: 'none',

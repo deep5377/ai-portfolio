@@ -54,7 +54,7 @@ function Contact() {
           }}>
             Say Hello
           </a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer" style={{
+          <a href="https://www.linkedin.com/in/deep-p-47b860219/" target="_blank" rel="noreferrer" style={{
             padding: '14px 32px',
             borderRadius: 14,
             border: '1.5px solid rgba(255,255,255,0.2)',
@@ -80,8 +80,8 @@ function Contact() {
           justifyContent: 'center',
           marginBottom: 20,
         }}>
-          <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" style={footerLink}>GitHub</a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer" style={footerLink}>LinkedIn</a>
+          <a href="https://github.com/deep5377" target="_blank" rel="noreferrer" style={footerLink}>GitHub</a>
+          <a href="https://www.linkedin.com/in/deep-p-47b860219/" target="_blank" rel="noreferrer" style={footerLink}>LinkedIn</a>
           <a href="mailto:deepdp840@gmail.com" style={footerLink}>Email</a>
         </div>
         <p style={{ fontSize: 14, color: '#999' }}>
